@@ -30,6 +30,7 @@ def test_decrypt_a_string():
 
 #crack 
 def test_crack_the_code(): 
-    msg = "lw zdv wkh ehvw ri wlphv, lw zdv wkh zruvw ri wlphv."
+    msg = "pa dhz aol ilza vm aptlz, pa dhz aol dvyza vm aptlz."
     actual = crack(msg) 
-    expected = "It was the best of times, it was the worst of times."
+    expected = "it was the best of times, it was the worst of times."
+    assert actual == expected
